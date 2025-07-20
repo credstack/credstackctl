@@ -11,6 +11,10 @@ builds:
     goos:
       - linux
       - darwin
+    goarch:
+      - arm
+      - arm64
+      - amd64
 
 archives:
   - formats: [tar.gz]
